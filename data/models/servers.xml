@@ -793,6 +793,18 @@
 		<Item
 			id="wood_fence2"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="PO2_0Base"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="PO2_1Base"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="PO2_2Base"
+			file="data\models\AnimModels.xml" />
 <!-- vehicles -->
 		<Item
 			id="tankChassis"

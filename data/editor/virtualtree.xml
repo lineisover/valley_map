@@ -2981,6 +2981,30 @@
 					type="ANIMATED_MODELS"
 					isLeaf="1" />
 			</Node>
+
+			<Node
+				name="New_models"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="PO2_0Base"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="PO2_1Base"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="PO2_2Base"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
 		</Node>
 	</Node>
 

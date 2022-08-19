@@ -3016,6 +3016,27 @@
 		shadow="1"
 		windwavy="0"
 		trans="0" />
+
+	<model
+		id="PO2_0Base"
+		file="data\models\buildings\new_models\PO2_0Base.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="PO2_1Base"
+		file="data\models\buildings\new_models\PO2_1Base.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
+
+	<model
+		id="PO2_2Base"
+		file="data\models\buildings\new_models\PO2_2Base.gam"
+		shadow="1"
+		windwavy="0"
+		trans="0" />
 <!-- vehicles -->
 	<model
 		id="tankChassis"

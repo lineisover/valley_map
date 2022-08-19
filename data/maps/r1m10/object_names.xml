@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="r1m10_Village1"
+		FullName="Деревня 1" />
+
+	<Object
+		Name="r1m10_City1"
+		FullName="Город 1" />
+
+	<Object
+		Name="r1m10_Village1_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="r1m10_Village1_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="r1m10_Village1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m10_Village1_Shop"
+		FullName="Рынок" />
+
+	<Object
+		Name="r1m10_City1_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="r1m10_City1_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="r1m10_City1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m10_City1_Shop"
+		FullName="Рынок" />
+</ObjectNames>

@@ -6,6 +6,18 @@ New towns and villages by OverLine
 
 <Prototypes>
     <Folder Name = "Generators">
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="r1m10_village1_car_affix_Generator">
+
+            <Affix AffixName = "useless_cabin" />
+			<Affix AffixName = "rusty_cabin" />
+			<Affix AffixName = "useless_basket" />
+			<Affix AffixName = "rusty_basket" />
+			
+		</Prototype>
+
         <Prototype
 			Class="AffixGenerator"
 			Name="r1m10_village1_affix_Generator">
@@ -18,6 +30,21 @@ New towns and villages by OverLine
 			<Affix AffixName = "with_truncated_barrel_gun" />
 			<Affix AffixName = "weak_gun" />
 			
+		</Prototype>
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="r1m10_village1_gun_Generator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01" />
+
+			<Object PrototypeName="vector01" />
+
+			<Object PrototypeName="minePusher_1"/>
+            <Object PrototypeName="engineOilPusher"/>
 		</Prototype>
 
 		<Prototype
@@ -78,8 +105,9 @@ New towns and villages by OverLine
 
 			IsIntersecting					= "true"
 			LookRadius						= "200"
-			IntersectionRadius				= "50" 
+			IntersectionRadius				= "50"
 
+			MaxDefenders					= "1"
 			Vehicles 						= "Bug"
 
 			GunGenerator					= "r1m10_city1_gun_Generator"
@@ -130,7 +158,7 @@ New towns and villages by OverLine
 
 			MusicName						= "agriculruar_town1"
 
-			GunGenerator					= "gunTheGloochoeGenerator"
+			GunGenerator					= "r1m10_village1_gun_Generator"
 			DesiredGunsInWorkshop			= "6"
 
 			GunAffixGenerator				= "r1m10_village1_affix_Generator"
@@ -142,7 +170,7 @@ New towns and villages by OverLine
 			WeaponPriceMultiplier 			= "1.7"
 			WeaponPriceDispersion 			= "5"
 
-			MaxDefenders					= "0" 
+			MaxDefenders					= "1" 
 			Vehicles						= "Scout" >
 
 			<Article		

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="297">
+	LastId="299">
 	<TargetNamesForDestroy
-		Names="" />
+		Names="u1" />
 
 	<Object
 		Name="Player1"
 		Belong="1100"
-		Prototype="player" />
+		Prototype="player"
+		Money="100" />
 
 	<Object
 		Name="Breakable_Dub11"
@@ -7426,7 +7427,7 @@
 		Name="lamppost2180"
 		Belong="1001"
 		Prototype="lamppost2"
-		Pos="5105.938 209.158 5193.410"
+		Pos="5105.938 209.186 5193.410"
 		Rot="0.000 -0.772 0.000 0.636" />
 
 	<Object
@@ -7720,7 +7721,7 @@
 		<Post
 			ServerObjName="lamppost2180"
 			NodesNameHierarchy=""
-			PostTiePos="5106.143 216.791 5192.445"
+			PostTiePos="5106.143 216.818 5192.445"
 			LpName="LP_PART01" />
 	</Object>
 
@@ -7736,7 +7737,7 @@
 		<Post
 			ServerObjName="lamppost2180"
 			NodesNameHierarchy=""
-			PostTiePos="5105.761 216.791 5194.401"
+			PostTiePos="5105.761 216.818 5194.401"
 			LpName="LP_PART02" />
 	</Object>
 
@@ -7890,7 +7891,7 @@
 		Name="Breakable_BrickWall2210"
 		Belong="1001"
 		Prototype="Breakable_BrickWall2"
-		Pos="5119.420 208.419 5186.703"
+		Pos="5119.420 208.431 5186.703"
 		Rot="0.000 0.328 0.000 0.945" />
 
 	<Object
@@ -9076,11 +9077,75 @@
 			Belong="1008"
 			Prototype="workshop">
 			<CabinsAndBaskets>
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo02" />
 
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo02" />
+
+				<Item
+					PosX="10"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo03" />
+
+				<Item
+					PosX="5"
+					PosY="40"
+					Flags="16"
+					Prototype="bugCab02" />
+
+				<Item
+					PosX="5"
+					PosY="20"
+					Flags="16"
+					Prototype="bugCab02" />
+
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="molokovozCab01" />
+
+				<Item
+					PosX="0"
+					PosY="5"
+					Flags="16"
+					Prototype="molokovozCab02" />
 			</CabinsAndBaskets>
 
 			<Vehicles>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="BugForSale"
+					Pos="0.000 369.722 0.000">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="bugCargo01" />
 
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="bugCab01" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="bugChassis" />
+					</Parts>
+
+					<Repository />
+				</Item>
 			</Vehicles>
 		</Object>
 
@@ -9089,7 +9154,11 @@
 			Belong="1008"
 			Prototype="shop">
 			<GunsAndGadgets>
-
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_fuel_tank" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -9175,11 +9244,128 @@
 			Belong="1010"
 			Prototype="workshop">
 			<CabinsAndBaskets>
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo02" />
 
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo03" />
+
+				<Item
+					PosX="0"
+					PosY="5"
+					Flags="16"
+					Prototype="bugCargo03" />
+
+				<Item
+					PosX="5"
+					PosY="5"
+					Flags="16"
+					Prototype="molokovozCargo01" />
+
+				<Item
+					PosX="0"
+					PosY="10"
+					Flags="16"
+					Prototype="molokovozCargo01" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="molokovozCargo02" />
+
+				<Item
+					PosX="5"
+					PosY="25"
+					Flags="16"
+					Prototype="bugCab02" />
+
+				<Item
+					PosX="10"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCab03" />
+
+				<Item
+					PosX="0"
+					PosY="30"
+					Flags="16"
+					Prototype="molokovozCab01" />
+
+				<Item
+					PosX="5"
+					PosY="30"
+					Flags="16"
+					Prototype="molokovozCab02" />
+
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
+					Prototype="molokovozCab02" />
 			</CabinsAndBaskets>
 
 			<Vehicles>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="BugForSale"
+					Pos="0.000 111.522 0.000">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="bugCargo01" />
 
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="bugCab01" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="bugChassis" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="MolokovozForSale"
+					Pos="0.000 111.656 0.000">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Name="BASwqwqKET"
+							Prototype="molokovozCargo01" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Name="CwqwABIN"
+							Prototype="molokovozCab01" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Name="CHASSISwqwqw"
+							Prototype="molokovozChassis" />
+					</Parts>
+
+					<Repository />
+				</Item>
 			</Vehicles>
 		</Object>
 
@@ -9188,7 +9374,29 @@
 			Belong="1010"
 			Prototype="shop">
 			<GunsAndGadgets>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_durability" />
 
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="additional_stability" />
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_guns" />
+
+				<Item
+					PosX="1"
+					PosY="1"
+					Flags="16"
+					Prototype="add_damage_energy" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -9246,8 +9454,531 @@
 			</DefendTeam>
 		</Parts>
 
-		<EntryPath />
+		<EntryPath>
+			<Point
+				Pos="5201.605 5234.309" />
 
-		<ExitPath />
+			<Point
+				Pos="5211.474 5246.040" />
+
+			<Point
+				Pos="5210.660 5259.730" />
+
+			<Point
+				Pos="5210.624 5278.943" />
+
+			<CameraPoint
+				Pos="-70.131 39.177 -164.180" />
+		</EntryPath>
+
+		<ExitPath>
+			<Point
+				Pos="5211.578 5280.293" />
+
+			<Point
+				Pos="5212.051 5249.664" />
+
+			<Point
+				Pos="5207.104 5239.520" />
+
+			<CameraPoint
+				Pos="-120.395 26.640 -114.847" />
+		</ExitPath>
 	</Object>
+
+	<Object
+		Name="InfectionZone1_Bandits"
+		Belong="1002"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r1m10_BanditsTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="5459.067"
+				y="6264.370" />
+
+			<Point
+				x="5454.800"
+				y="5930.634" />
+
+			<Point
+				x="5616.992"
+				y="5900.862" />
+
+			<Point
+				x="5850.052"
+				y="6106.218" />
+
+			<Point
+				x="6154.138"
+				y="6072.567" />
+
+			<Point
+				x="6301.642"
+				y="6194.625" />
+
+			<Point
+				x="6500.470"
+				y="6664.562" />
+
+			<Point
+				x="6410.656"
+				y="6803.283" />
+
+			<Point
+				x="6407.993"
+				y="7030.726" />
+
+			<Point
+				x="6269.805"
+				y="7103.063" />
+
+			<Point
+				x="6112.544"
+				y="6748.504" />
+
+			<Point
+				x="5882.727"
+				y="6746.140" />
+
+			<Point
+				x="6026.154"
+				y="6615.957" />
+
+			<Point
+				x="6004.195"
+				y="6349.248" />
+
+			<Point
+				x="5638.690"
+				y="6323.105" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="5581.730"
+				y="6199.746" />
+
+			<Point
+				x="5624.950"
+				y="6081.907" />
+
+			<Point
+				x="6174.707"
+				y="6156.297" />
+
+			<Point
+				x="5915.588"
+				y="6141.685" />
+
+			<Point
+				x="6406.522"
+				y="6518.356" />
+
+			<Point
+				x="6347.109"
+				y="6738.253" />
+
+			<Point
+				x="6129.059"
+				y="6700.825" />
+
+			<Point
+				x="6249.421"
+				y="6821.202" />
+
+			<Point
+				x="6253.472"
+				y="6501.854" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone2_Bandits"
+		Belong="1002"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r1m10_BanditsTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="6318.986"
+				y="5822.134" />
+
+			<Point
+				x="6643.727"
+				y="5402.747" />
+
+			<Point
+				x="7168.742"
+				y="5804.413" />
+
+			<Point
+				x="7445.023"
+				y="5990.728" />
+
+			<Point
+				x="7283.973"
+				y="6200.406" />
+
+			<Point
+				x="6989.346"
+				y="6109.238" />
+
+			<Point
+				x="6672.113"
+				y="6260.976" />
+
+			<Point
+				x="6781.955"
+				y="6736.582" />
+
+			<Point
+				x="6635.496"
+				y="6833.875" />
+
+			<Point
+				x="6315.721"
+				y="6188.371" />
+
+			<Point
+				x="6160.554"
+				y="6062.766" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="6682.248"
+				y="5650.552" />
+
+			<Point
+				x="6815.066"
+				y="5709.390" />
+
+			<Point
+				x="7049.202"
+				y="5797.982" />
+
+			<Point
+				x="7176.512"
+				y="5960.650" />
+
+			<Point
+				x="6819.821"
+				y="6028.393" />
+
+			<Point
+				x="6472.057"
+				y="5826.755" />
+
+			<Point
+				x="6678.245"
+				y="6181.874" />
+
+			<Point
+				x="6251.900"
+				y="6082.049" />
+
+			<Point
+				x="6331.251"
+				y="6048.033" />
+
+			<Point
+				x="6361.854"
+				y="6202.811" />
+
+			<Point
+				x="6633.631"
+				y="6724.841" />
+
+			<Point
+				x="6644.977"
+				y="6471.007" />
+
+			<Point
+				x="6489.591"
+				y="6596.831" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone3_Bandits"
+		Belong="1002"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r1m10_BanditsTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="6634.750"
+				y="5396.538" />
+
+			<Point
+				x="6718.700"
+				y="5210.090" />
+
+			<Point
+				x="6916.263"
+				y="5203.796" />
+
+			<Point
+				x="6864.934"
+				y="5011.565" />
+
+			<Point
+				x="6625.229"
+				y="5025.285" />
+
+			<Point
+				x="6493.322"
+				y="5142.460" />
+
+			<Point
+				x="6402.586"
+				y="5088.732" />
+
+			<Point
+				x="5921.008"
+				y="5344.521" />
+
+			<Point
+				x="5829.073"
+				y="5468.236" />
+
+			<Point
+				x="6315.407"
+				y="5809.137" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="6772.995"
+				y="5121.303" />
+
+			<Point
+				x="6383.792"
+				y="5128.203" />
+
+			<Point
+				x="6174.900"
+				y="5243.844" />
+
+			<Point
+				x="6081.605"
+				y="5280.977" />
+
+			<Point
+				x="5898.203"
+				y="5472.588" />
+
+			<Point
+				x="6120.096"
+				y="5381.376" />
+
+			<Point
+				x="6123.872"
+				y="5568.269" />
+
+			<Point
+				x="6321.663"
+				y="5356.851" />
+
+			<Point
+				x="6565.935"
+				y="5418.432" />
+
+			<Point
+				x="6296.606"
+				y="5728.097" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone4_Bandits"
+		Belong="1002"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r1m10_BanditsTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="6542.446"
+				y="4836.626" />
+
+			<Point
+				x="6425.084"
+				y="4779.923" />
+
+			<Point
+				x="6256.892"
+				y="4888.876" />
+
+			<Point
+				x="6015.174"
+				y="4493.441" />
+
+			<Point
+				x="5740.981"
+				y="4406.640" />
+
+			<Point
+				x="5544.014"
+				y="4429.415" />
+
+			<Point
+				x="5183.859"
+				y="4664.652" />
+
+			<Point
+				x="5290.476"
+				y="4794.437" />
+
+			<Point
+				x="5357.763"
+				y="4950.064" />
+
+			<Point
+				x="5414.968"
+				y="5001.386" />
+
+			<Point
+				x="5442.043"
+				y="5142.811" />
+
+			<Point
+				x="5596.961"
+				y="5252.837" />
+
+			<Point
+				x="5813.836"
+				y="5468.216" />
+
+			<Point
+				x="5911.871"
+				y="5337.502" />
+
+			<Point
+				x="6396.660"
+				y="5080.317" />
+
+			<Point
+				x="6346.820"
+				y="5017.405" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="6282.222"
+				y="5054.984" />
+
+			<Point
+				x="6040.627"
+				y="5006.270" />
+
+			<Point
+				x="6002.695"
+				y="5089.933" />
+
+			<Point
+				x="6104.661"
+				y="4757.062" />
+
+			<Point
+				x="5887.512"
+				y="4736.474" />
+
+			<Point
+				x="5900.877"
+				y="4546.309" />
+
+			<Point
+				x="5751.106"
+				y="4571.640" />
+
+			<Point
+				x="5540.559"
+				y="4551.820" />
+
+			<Point
+				x="5486.945"
+				y="4732.229" />
+
+			<Point
+				x="5533.560"
+				y="4865.422" />
+
+			<Point
+				x="5356.903"
+				y="4832.763" />
+
+			<Point
+				x="5625.507"
+				y="5114.865" />
+
+			<Point
+				x="5688.720"
+				y="5312.640" />
+
+			<Point
+				x="5817.657"
+				y="5415.270" />
+
+			<Point
+				x="5669.626"
+				y="4861.661" />
+
+			<Point
+				x="5930.069"
+				y="4844.835" />
+
+			<Point
+				x="6442.453"
+				y="4831.946" />
+
+			<Point
+				x="5729.728"
+				y="4745.008" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="barricade1_wwwC3"
+		Belong="1002"
+		Prototype="barricade8_wwwC"
+		Pos="6302.179 348.476 7096.447"
+		Probability="0.500">
+		<Object
+			Flags="21"
+			Name="barricade1_wwwC3_Team"
+			Belong="1002"
+			Prototype="settlementTeam">
+			<Object
+				Name="barricade1_wwwC3_Child4"
+				Belong="1002"
+				Prototype="FighterEnemySpawn"
+				Pos="6302.179 348.476 7096.447"
+				Rot="-0.012 0.633 0.006 0.774">
+				<Parts />
+
+				<Repository />
+			</Object>
+
+			<Formation
+				Name="barricade1_wwwC3_Team_Formation"
+				Belong="1002"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="13.889"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
 </DynamicScene>

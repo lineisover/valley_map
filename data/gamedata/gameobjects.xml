@@ -21,6 +21,7 @@ $Id: GameObjects.xml,v 1.60 2005/10/14 06:13:36 anton Exp $
 	<Folder Name = "Tactics" File="Tactics.xml" />
 
 	<Folder Name = "Infection" File="Infection.xml" />
+	<Folder Name = "Infection_New" File="Infection_New.xml" />
 
         <Folder Name = "Caravan" File="Caravan.xml" />
 

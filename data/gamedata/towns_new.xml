@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+New towns and villages by OverLine
+-->
+
+<Prototypes>
+    <Folder Name = "Generators">
+        <Prototype
+			Class="AffixGenerator"
+			Name="r1m10_village1_affix_Generator">
+
+			<Affix AffixName = "useless_gun" />
+			<Affix AffixName = "rusty_gun" />
+			<Affix AffixName = "slow_gun" />      
+			<Affix AffixName = "without_sight_gun" />
+			<Affix AffixName = "without_cooling_gun" />
+			<Affix AffixName = "with_truncated_barrel_gun" />
+			<Affix AffixName = "weak_gun" />
+			
+		</Prototype>
+
+		<Prototype
+			Class="RepositoryObjectsGenerator"
+			Name="r1m10_city1_gun_Generator">
+
+			<Object PrototypeName="hornet01" />
+			<Object PrototypeName="specter01" />
+			<Object PrototypeName="pkt01" />
+			<Object PrototypeName="kord01" />
+
+			<Object PrototypeName="vector01" />
+
+			<Object PrototypeName="cyclops01" />
+			<Object PrototypeName="octopus01" />
+			<Object PrototypeName="hailSideGun" />
+			<Object PrototypeName="hunterSideGun" />
+			<Object PrototypeName="minePusher_1"/>
+            <Object PrototypeName="engineOilPusher"/>
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="r1m10_city1_car_affix_Generator">
+
+            <Affix AffixName = "excellent_cabin" />
+			<Affix AffixName = "advanced_cabin" />
+			<Affix AffixName = "excellent_basket" />
+			<Affix AffixName = "advanced_basket" />
+			
+		</Prototype>
+
+		<Prototype
+			Class="AffixGenerator"
+			Name="r1m10_city1_gun_affix_Generator">
+
+			<Affix AffixName = "rusty_gun" />
+			<Affix AffixName = "excellent_gun" />
+			<Affix AffixName = "assault_gun" />
+			<Affix AffixName = "with_enlarged_barrel_gun" />
+			<Affix AffixName = "with_laser_sight_gun" />
+			<Affix AffixName = "with_water_cooling_gun"	/>
+			<Affix AffixName = "deadly_gun" />
+		</Prototype>
+    </Folder>
+
+	<Folder Name = "BigTowns">
+		<Prototype
+			Class							= "Town"
+			Name							= "r1m10_City1"
+			ModelFile						= "minintown"
+			NodeScale						= "1 1 1" 
+
+			MusicName						= "trade_town1"
+			GateModelFile 					= "factorytunnelgate"
+
+			NumCollisionLayersBelowVehicle  = "1"
+
+			IsIntersecting					= "true"
+			LookRadius						= "200"
+			IntersectionRadius				= "50" 
+
+			Vehicles 						= "Bug"
+
+			GunGenerator					= "r1m10_city1_gun_Generator"
+			DesiredGunsInWorkshop			= "15"
+
+			GunAffixGenerator				= "r1m10_city1_gun_affix_Generator"
+			GunAffixesCount					= "1"
+
+			CabinsAndBasketsAffixGenerator	= "r1m10_city1_car_affix_Generator"
+			CabinsAndBasketsAffixesCount	= "3"
+
+			WeaponPriceMultiplier 			= "1.2"
+			WeaponPriceDispersion 			= "15">
+			
+			<Article
+				Prototype					= "potato"				
+				Amount	 					= "0"
+				ExternalPriceCoefficient	= "1.45"
+				Import   					= "TRUE"
+				Export   					= "FALSE"				
+				PriceDynamic 				= "1"
+				MinCount					= "0"
+				MaxCount					= "60"
+				RegenerationPeriod			= "300"	
+			/>
+
+			<Article
+				Prototype					= "firewood"				
+				Amount	 					= "6"
+				ExternalPriceCoefficient	= "0.9"
+				PriceDynamic 				= "1"
+				Import   					= "FALSE"
+				Export   					= "TRUE"
+				MinCount					= "0"
+				MaxCount					= "14"
+				RegenerationPeriod			= "300"
+			/>
+
+		</Prototype>
+	</Folder>
+
+    <Folder Name = "Villages">
+        <Prototype
+			Class							= "Town"
+			Name							= "r1m10_Village1"
+			ModelFile						= "point"
+			NodeScale						= "1 1 1" 
+
+			MusicName						= "agriculruar_town1"
+
+			GunGenerator					= "gunTheGloochoeGenerator"
+			DesiredGunsInWorkshop			= "6"
+
+			GunAffixGenerator				= "r1m10_village1_affix_Generator"
+			GunAffixesCount					= "1"
+
+			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"
+			CabinsAndBasketsAffixesCount	= "2"
+
+			WeaponPriceMultiplier 			= "1.7"
+			WeaponPriceDispersion 			= "5"
+
+			MaxDefenders					= "0" 
+			Vehicles						= "Scout" >
+
+			<Article		
+				Prototype					= "potato"				
+				Amount	 					= "5"
+				Export   					= "TRUE"
+				Import						= "FALSE"
+				PriceDynamic 				= "1"
+				ExternalPriceCoefficient	=  "0.8"
+				MinCount					= "0"
+				MaxCount					= "40"
+				RegenerationPeriod			= "300"			/>
+
+
+	      <ResourceCoeff Coeff="0.5" Dispersion="0.0" Resource="CABIN" />
+	      <ResourceCoeff Coeff="1" Dispersion="0.0" Resource="GUN" />
+
+		</Prototype>
+    </Folder>
+</Prototypes>

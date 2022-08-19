@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="295">
+	LastId="297">
 	<TargetNamesForDestroy
 		Names="" />
 
@@ -9049,4 +9049,205 @@
 		Prototype="Breakable_Elka1"
 		Pos="5757.212 243.767 4345.266"
 		Rot="0.000 0.951 0.000 -0.309" />
+
+	<Object
+		Name="r1m10_Village1"
+		Belong="1008"
+		Prototype="r1m10_Village1"
+		Pos="5579.253 265.858 6509.868"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="r1m10_Village1_Bar"
+			Belong="1008"
+			Prototype="bar">
+			<Object
+				Name="r1m10_Village1_Barman"
+				Belong="1008"
+				Prototype="NPC"
+				ModelName="r1_woman"
+				cfg="44"
+				NpcType="BARMAN"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="r1m10_Village1_Workshop"
+			Belong="1008"
+			Prototype="workshop">
+			<CabinsAndBaskets>
+
+			</CabinsAndBaskets>
+
+			<Vehicles>
+
+			</Vehicles>
+		</Object>
+
+		<Object
+			Name="r1m10_Village1_Shop"
+			Belong="1008"
+			Prototype="shop">
+			<GunsAndGadgets>
+
+			</GunsAndGadgets>
+		</Object>
+
+		<Object
+			Name="r1m10_Village1_defend"
+			Belong="1008"
+			Prototype="genericLocation"
+			Pos="5869.657 251.705 6416.156"
+			Radius="50.000"
+			Active="0" />
+
+		<Object
+			Name="r1m10_Village1_deploy"
+			Belong="1008"
+			Prototype="genericLocation"
+			Pos="5623.899 272.255 6583.377"
+			Radius="50.000" />
+
+		<Object
+			Name="r1m10_Village1_enter"
+			Belong="1008"
+			Prototype="genericLocation"
+			Pos="5567.092 266.626 6522.833"
+			Radius="40.000" />
+
+		<Object
+			Name="r1m10_Village1_caravan"
+			Belong="1008"
+			Prototype="genericLocation"
+			Pos="5624.409 272.349 6584.417"
+			Radius="50.000" />
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+
+			<DefendTeam
+				present="yes"
+				Name="r1m10_Village1_DefendTeam"
+				Belong="1008"
+				Prototype="settlementTeam">
+				<Formation
+					Belong="1008"
+					Prototype="caravanFormation"
+					DistBetweenVehicles="30.000"
+					Pos="0.000 0.000 0.000"
+					Direction="0.000 0.000 1.000"
+					LinearVelocity="100.000"
+					AngularVelocity="0.500"
+					NumPathPoint="-1" />
+			</DefendTeam>
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="r1m10_City1"
+		Belong="1010"
+		Prototype="r1m10_City1"
+		Pos="5197.714 211.755 5306.421"
+		Rot="0.000 -1.000 0.000 -0.020"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="r1m10_City1_Bar"
+			Belong="1010"
+			Prototype="bar">
+			<Object
+				Name="r1m10_City1_Barman"
+				Belong="1010"
+				Prototype="NPC"
+				ModelName="r1_woman"
+				cfg="44"
+				NpcType="BARMAN"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="r1m10_City1_Workshop"
+			Belong="1010"
+			Prototype="workshop">
+			<CabinsAndBaskets>
+
+			</CabinsAndBaskets>
+
+			<Vehicles>
+
+			</Vehicles>
+		</Object>
+
+		<Object
+			Name="r1m10_City1_Shop"
+			Belong="1010"
+			Prototype="shop">
+			<GunsAndGadgets>
+
+			</GunsAndGadgets>
+		</Object>
+
+		<Object
+			Name="r1m10_City1_defend"
+			Belong="1010"
+			Prototype="genericLocation"
+			Pos="5349.390 199.942 5007.478"
+			Rot="0.000 -1.000 0.000 -0.020"
+			Radius="50.000"
+			Active="0" />
+
+		<Object
+			Name="r1m10_City1_deploy"
+			Belong="1010"
+			Prototype="genericLocation"
+			Pos="5276.989 202.307 5120.006"
+			Rot="0.000 -1.000 0.000 -0.020"
+			Radius="50.000" />
+
+		<Object
+			Name="r1m10_City1_enter"
+			Belong="1010"
+			Prototype="genericLocation"
+			Pos="5208.877 207.079 5247.341"
+			Rot="0.000 -1.000 0.000 -0.020"
+			Radius="30.000" />
+
+		<Object
+			Name="r1m10_City1_caravan"
+			Belong="1010"
+			Prototype="genericLocation"
+			Pos="5216.405 204.401 5155.661"
+			Rot="0.000 -1.000 0.000 -0.020"
+			Radius="50.000" />
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+
+			<DefendTeam
+				present="yes"
+				Name="r1m10_City1_DefendTeam"
+				Belong="1010"
+				Prototype="settlementTeam">
+				<Formation
+					Belong="1010"
+					Prototype="caravanFormation"
+					DistBetweenVehicles="30.000"
+					Pos="0.000 0.000 0.000"
+					Direction="0.000 0.000 1.000"
+					LinearVelocity="100.000"
+					AngularVelocity="0.500"
+					NumPathPoint="-1" />
+			</DefendTeam>
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
 </DynamicScene>

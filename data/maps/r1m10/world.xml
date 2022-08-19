@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="427415978">
+	LastId="427416017">
 	<Node
 		name="Object427413912"
 		class="SgAnimatedModelNode"
@@ -6072,15 +6072,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object427415388"
-		class="SgAnimatedModelNode"
-		org="5197.714 -2.603 5306.421"
-		orgRel="1"
-		rot="0.0000 -0.9997 0.0000 -0.0240"
-		id="minintown"
-		ndmAction="0" />
-
-	<Node
 		name="Object427415395"
 		class="SgAnimatedModelNode"
 		org="5165.390 -3.682 4891.868"
@@ -10204,5 +10195,14 @@
 		rot="0.0000 -0.9954 0.0000 0.0958"
 		scale="2.150 2.150 2.150"
 		id="prom_element"
+		ndmAction="0" />
+
+	<Node
+		name="Object427415992"
+		class="SgAnimatedModelNode"
+		org="5610.952 1.016 6615.133"
+		orgRel="1"
+		rot="0.0000 0.9999 0.0000 -0.0153"
+		id="rock_1"
 		ndmAction="0" />
 </World>

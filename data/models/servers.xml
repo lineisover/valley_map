@@ -449,6 +449,10 @@
 		<Item
 			id="sosna3"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rock_1"
+			file="data\models\AnimModels.xml" />
 <!-- guns -->
 		<Item
 			id="dragon01"

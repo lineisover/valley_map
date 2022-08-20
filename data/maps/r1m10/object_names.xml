@@ -5,7 +5,15 @@
 		FullName="Деревня 1" />
 
 	<Object
+		Name="r1m10_Village1_caravan"
+		FullName="Деревня 1" />
+
+	<Object
 		Name="r1m10_City1"
+		FullName="Город 1" />
+
+	<Object
+		Name="r1m10_City1_caravan"
 		FullName="Город 1" />
 
 	<Object

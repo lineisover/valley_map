@@ -171,7 +171,7 @@ New towns and villages by OverLine
 			WeaponPriceDispersion 			= "5"
 
 			MaxDefenders					= "1" 
-			Vehicles						= "Scout" >
+			Vehicles						= "Bug" >
 
 			<Article		
 				Prototype					= "potato"				

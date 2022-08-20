@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="299">
+	LastId="300">
 	<TargetNamesForDestroy
 		Names="u1" />
 
@@ -9057,7 +9057,7 @@
 		Prototype="r1m10_Village1"
 		Pos="5579.253 265.858 6509.868"
 		PointOfViewInInterface="5.000 20.000 5.000"
-		CaravansDest="">
+		CaravansDest="r1m10_City1_caravan">
 		<Object
 			Name="r1m10_Village1_Bar"
 			Belong="1008"
@@ -9224,7 +9224,7 @@
 		Pos="5197.714 211.755 5306.421"
 		Rot="0.000 -1.000 0.000 -0.020"
 		PointOfViewInInterface="5.000 20.000 5.000"
-		CaravansDest="">
+		CaravansDest="r1m10_Village1_caravan">
 		<Object
 			Name="r1m10_City1_Bar"
 			Belong="1010"
@@ -9421,9 +9421,9 @@
 			Name="r1m10_City1_enter"
 			Belong="1010"
 			Prototype="genericLocation"
-			Pos="5208.877 207.079 5247.341"
+			Pos="5193.756 208.290 5245.420"
 			Rot="0.000 -1.000 0.000 -0.020"
-			Radius="30.000" />
+			Radius="40.000" />
 
 		<Object
 			Name="r1m10_City1_caravan"
@@ -9950,7 +9950,7 @@
 		Name="barricade1_wwwC3"
 		Belong="1002"
 		Prototype="barricade8_wwwC"
-		Pos="6302.179 348.476 7096.447"
+		Pos="6302.179 345.927 7096.447"
 		Probability="0.500">
 		<Object
 			Flags="21"
@@ -9960,7 +9960,7 @@
 			<Object
 				Name="barricade1_wwwC3_Child4"
 				Belong="1002"
-				Prototype="FighterEnemySpawn"
+				Prototype="r1m3_hunter02"
 				Pos="6302.179 348.476 7096.447"
 				Rot="-0.012 0.633 0.006 0.774">
 				<Parts />
@@ -9981,4 +9981,28 @@
 		</Object>
 	</Object>
 
+	<Object
+		Name="r1m10_CaravanGlobal"
+		Belong="1010"
+		Prototype="LiveCaravanManager"
+		TeamCount="1"
+		RebornTimeout="30.000">
+		<Points>
+			<Point
+				Name="r1m10_City1_caravan"
+				Coord="5216.405 5155.661"
+				Transition="true" />
+			<Point
+				Name="r1m10_Village1_caravan"
+				Coord="5624.409 6584.417"
+				Transition="true" />
+		</Points>
+
+		<Caravans>
+			<Caravan
+				Prototype="r1m10_CaravanTeam"
+				Locations="r1m10_City1_caravan r1m10_Village1_caravan" />
+		</Caravans>
+
+	</Object>
 </DynamicScene>

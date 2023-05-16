@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+New infections by OverLine
+-->
+
+<Prototypes>
+
+    <Prototype
+        Class			= "InfectionLair"
+        Name			= "r1m10_BanditsTeam_Lair"
+
+        ModelFile		= "dungeon_1"
+        NodeScale		= "1 1 1"/>	
+
+    <Prototype
+        Class			= "InfectionZone"
+        Name			= "BanditsZone"
+        MinDistToPlayer	= "200"
+        CriticalTeamDist = "800"
+        CriticalTeamTime = "5" 
+        BlindTeamDist = "200"
+        BlindTeamTime = "20"
+        DropOutTimeOut = "20.000"
+        />
+
+    <Prototype
+		Class			= "InfectionTeam"
+		Name			= "r1m10_BanditsTeam"
+		DecisionMatrix	        	= "teammain.lua"
+		VehiclesGenerator 	= "r1m10_SmallGenerator">
+		<Vehicles/>
+	</Prototype>
+
+    <Prototype
+		Class 		= "VehiclesGenerator"
+		Name		= "r1m10_SmallGenerator"
+		DesiredCount 	= "1-2"
+		partOfSchwartzForCabin 			= "0.15"  
+		partOfSchwartzForBasket 		= "0.15"
+		partOfSchwartzForGuns 			= "0.54"
+		partOfSchwartzForWares 			= "0.20" >
+		<Description 
+			VehiclesPrototypes	="ScoutEnemySpawn"		
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="cityaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml1EnemySpawn" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="Sml1EnemySpawn" 	
+			WaresPrototypes="potato"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale HunterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="UralForSale FighterEnemySpawn ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+		<Description 
+			VehiclesPrototypes	="BugForSale ScoutEnemySpawn" 	
+			WaresPrototypes="firewood"
+			GunAffixGeneratorPrototype="villageaffixGenerator"
+			PartOfSchwartz="0.3" />
+    </Prototype>
+
+</Prototypes>

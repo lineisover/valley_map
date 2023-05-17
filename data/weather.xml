@@ -2985,7 +2985,7 @@
 
 		<PostEffect
 			sunrise="wSunrise_r1m10"
-			day="wDay_r1m1"
+			day="wDay_r1m10"
 			sunset="wSunset_r1m10"
 			night="wNight_r1m10" />
 
@@ -3030,11 +3030,11 @@
 		inclementWeatherPS="ET_PS_RAIN_WEATHER"
 		soundName="ET_S_RAIN_INT"
 		density="20"
-		distance="100.000"
-		minThunderDuty="1000"
-		maxThunderDuty="1000"
+		distance="47.000"
+		minThunderDuty="426"
+		maxThunderDuty="254"
 		minThunderPeriod="60000"
-		maxThunderPeriod="60000"
+		maxThunderPeriod="8157"
 		lightEffectCount="1"
 		lightEffectName1="ET_PS_LIGHT_WEATHER1">
 		<Sky

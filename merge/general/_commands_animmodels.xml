@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<AnimatedModels>
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="rock_1"
+        shadow="1"
+        trans="1"
+        windwavy="0"
+        useImpostors="0"
+        file="data\models\nature\new_models\rock_1\rock.gam"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_0Base"
+        file="data\models\buildings\new_models\PO2_0Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_1Base"
+        file="data\models\buildings\new_models\PO2_1Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_2Base"
+        file="data\models\buildings\new_models\PO2_2Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+</AnimatedModels>

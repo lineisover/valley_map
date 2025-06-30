@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Servers>
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="rock_1"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="PO2_0Base"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="PO2_1Base"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="PO2_2Base"
+        file="data\models\AnimModels.xml"/>
+</Servers>

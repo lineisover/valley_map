@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Prefabs>
+    <Node
+        _Action="Add"
+        _SelectorKeys="name"
+        name="ET_S_RAIN_INT"
+        class="SgNode">
+        <Node
+            name="noise"
+            class="SgSoundSourceNode"
+            id="S_RAIN_INT"
+            looped="1"/>
+    </Node>
+</Prefabs>

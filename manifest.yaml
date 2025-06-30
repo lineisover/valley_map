@@ -1,38 +1,49 @@
 name: valley_map
- 
-# необходимая человекочитаемая информация
-display_name: Долина
-version: "0.1-dev"  # версия в формате "major.minor.patch-identifier", например "1", "1.0", "1.0.0", "1.4.2-HD.new" 
-build: "230516a"  # формат YYMMDD<build_letter>. Первый релиз 30 декабря 22 - 221230a. Второй от 1 января - 230101b
-description: |  # описание мода в ComMod
-  Мод добавляющий в игру новую локацию.
-authors: OverLine
- 
-# optional human readable info
-release_date: "WIP"  # информация которая в дальнейшем будет отображаться в интерфейсе, можно указать дату первого релиза
-language: ru  # eng, ru, ua, de, tr - вероятные ожидаемые коды языка, так же понадобится в случае планирования перевода мода
-link: https://github.com/lineisover/valley_map  # ссылка где вы публикуете ифнормацию про мод и свежие релизы
-tags: [gameplay]
-logo: logo.svg
-other_info: readme.md
-screenshots:
-  - img: screenshots/screen1.webp
-  - img: screenshots/screen2.webp
-  - img: screenshots/screen3.webp
+version: "0.1.1-dev"
+build: "250630a"
+language: ru
 
+display_name: Долина
+authors: OverLine
+description: | 
+  Мод добавляющий в игру новую локацию. 
+release_date: "WIP"
+link: https://github.com/lineisover/valley_map
+
+logo: assets/logo.svg
+# install_banner:
+
+tags: [gameplay]
+
+other_info: readme.md
+# change_log:
+
+screenshots:
+  - img: assets/screenshots/screen1.webp
+  - img: assets/screenshots/screen2.webp
+  - img: assets/screenshots/screen3.webp
+
+# translations: [eng]
+
+patcher_version_requirement: "3.0.6"
  
-# информация о процессе инсталляции
-patcher_version_requirement: "1.13"  # трактуется как >=1.13
+patcher_options:
+  blast_damage_friendly_fire: true
+
+compatible_patch_versions: true
+strict_requirements: false
+
+no_base_content: false
+
+data_dirs:
+  - "general"
+merge_instructions:
+  - "merge_general.yaml"
  
-patcher_options:  # задействует специальные возможности ComMod по правке движка
-  blast_damage_friendly_fire: true  # параметр включающий friendly fire по союзникам(и себе) от взрывов
-no_base_content: false  # иногда мод удобнее полностью распределить по опциям, сделав каждую его часть опциональной
- 
-prerequisites:  # требования по базовым модам, без их наличия установка будет запрещена
-  - name: [community_remaster]  # ComPatch или ComRemaster
+prerequisites:
+  - name: [community_remaster]
     versions: 
-     - ">=1.13"  # любой версии начиная с 1.09 - например подойдут 1.11, 1.12, 1.12.4
-     - "<1.14"   # но меньше версии 1.14 - 1.14.1 уже не подойдёт
+     - ">=1.14.1"
     optional_content:
-     - hd_gun_models  # обязательно нужно чтобы был установлен аддон с HD пушками
+     - hd_gun_models
      - hd_vehicle_models

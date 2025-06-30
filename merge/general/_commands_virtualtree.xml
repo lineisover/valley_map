@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Node>
+    <Node
+        _Action="Add"
+        _ParentXPath="Node[@name='Animated models']/Node[@name='Region1']/Node[@name='Nature']"
+        _SelectorKeys="name"
+        name="Bushes"
+        class="VirtualItem"
+        type="ANIMATED_MODELS"
+        isLeaf="0">
+        <Node
+            name="r1_Dub_Kust1"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+
+        <Node
+            name="r1_Dub_Kust2"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+    </Node>
+
+    <Node
+        _Action="Add"
+        _ParentXPath="Node[@name='Animated models']/Node[@name='Region1']/Node[@name='Nature']/Node[@name='Stones']"
+        _SelectorKeys="name"
+        name="New_rocks"
+        class="VirtualItem"
+        type="ANIMATED_MODELS"
+        isLeaf="0">
+        <Node
+            name="rock_1"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+    </Node>
+
+    <Node
+        _Action="Add"
+        _ParentXPath="Node[@name='Animated models']/Node[@name='Misc']"
+        _SelectorKeys="name"
+        name="New_models"
+        class="VirtualItem"
+        type="ANIMATED_MODELS"
+        isLeaf="0">
+        <Node
+            name="PO2_0Base"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+
+        <Node
+            name="PO2_1Base"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+
+        <Node
+            name="PO2_2Base"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="1"/>
+    </Node>
+</Node>

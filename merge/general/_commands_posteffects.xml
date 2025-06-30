@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Effects>
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunrise_r1m10">
+        <Unit
+            VarName="Bloom"
+            InitVal="3332996961312676900000000000000000000.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="0.830"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.080"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.910"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wDay_r1m10">
+        <Unit
+            VarName="Bloom"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="-2.570"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.080"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.820"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunset_r1m10">
+        <Unit
+            VarName="Bloom"
+            InitVal="3332996961312676900000000000000000000.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.060"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.710"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wNight_r1m10">
+        <Unit
+            VarName="Bloom"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="-1.590"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.210"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.110"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.450"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunrise_r1m10_rain">
+        <Unit
+            VarName="Bloom"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="-0.620"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.900"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.070"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wDay_r1m10_rain">
+        <Unit
+            VarName="Bloom"
+            InitVal="3332996961312676900000000000000000000.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.040"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.070"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunset_r1m10_rain">
+        <Unit
+            VarName="Bloom"
+            InitVal="3332996961312676900000000000000000000.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.110"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.040"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Model
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wNight_r1m10_rain">
+        <Unit
+            VarName="Bloom"
+            InitVal="3332996961312676900000000000000000000.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomWidth"
+            InitVal="-0.140"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomOrigTerm"
+            InitVal="0.070"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomBlurTerm"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomThreshold"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="BloomIntensity"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="Sepia"
+            InitVal="1.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaIntensity"
+            InitVal="0.130"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorR"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorG"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+
+        <Unit
+            VarName="SepiaColorB"
+            InitVal="0.000"
+            Param1="0"
+            Param2="0"
+            Param3="0"
+            Param4="0"
+            Action="none"/>
+    </Model>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunrise_r1m10"
+        Loop="false">
+        <Unit
+            Name="wSunrise_r1m10"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wDay_r1m10"
+        Loop="false">
+        <Unit
+            Name="wDay_r1m10"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunset_r1m10"
+        Loop="false">
+        <Unit
+            Name="wSunset_r1m10"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wNight_r1m10"
+        Loop="false">
+        <Unit
+            Name="wNight_r1m10"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunrise_r1m10_rain"
+        Loop="false">
+        <Unit
+            Name="wSunrise_r1m10_rain"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wDay_r1m10_rain"
+        Loop="false">
+        <Unit
+            Name="wDay_r1m10_rain"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wSunset_r1m10_rain"
+        Loop="false">
+        <Unit
+            Name="wSunset_r1m10_rain"/>
+    </Sequence>
+
+    <Sequence
+        _Action="Add"
+        _SelectorKeys="Name"
+        Name="wNight_r1m10_rain"
+        Loop="false">
+        <Unit
+            Name="wNight_r1m10_rain"/>
+    </Sequence>
+</Effects>

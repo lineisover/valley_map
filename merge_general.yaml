@@ -1,0 +1,41 @@
+# models
+
+- commands: merge\general\_commands_animmodels.xml
+  targets:  models\animmodels.xml
+
+- commands: merge\general\_commands_effects.xml
+  targets:  models\effects.xml
+
+- commands: merge\general\_commands_servers.xml
+  targets:  models\servers.xml
+
+# gamedata
+
+- commands: merge\general\_commands_gameobjects.xml
+  targets:  gamedata\gameobjects\gameobjects.xml
+
+# data
+
+- commands: merge\general\_commands_posteffects.xml
+  targets:  posteffects.xml
+
+- commands: merge\general\_commands_weather.xml
+  targets:  weather.xml
+
+# if
+
+- commands: merge\general\_commands_levelinfo_hd.xml
+  targets:  if\diz\levelinfo_hd.xml
+
+- commands: merge\general\_commands_modelicons.xml
+  targets:  if\ico_hd\modelicons.xml
+
+# sounds
+
+- commands: merge\general\_commands_sounds.xml
+  targets:  sounds\sounds.xml
+
+# editor
+
+- commands: merge\general\_commands_virtualtree.xml
+  targets:  editor\virtualtree.xml

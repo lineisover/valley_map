@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<LevelInfoResource>
+    <LevelInfo
+        _Action="Add"
+        _SelectorKeys="name"
+        name="r1m10"
+        file="data\maps\r1m10.ssl"
+        fullName="Долина"
+        diz0=""
+        diz1=""
+        north="0 0 1"
+        image0="data\if\map\r1m10.dds"
+        image1="data\if\ico\GlobalMap\r4m2.dds"
+        splashes="data\if\ico_hd\Splashes\chel.dds"
+        musicBlocks="r2_1 r2_2"/>
+</LevelInfoResource>

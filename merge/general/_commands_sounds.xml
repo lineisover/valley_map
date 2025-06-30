@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<sounds>
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="S_RAIN_INT"
+        file="data\sounds\weather\rain_int.ogg"
+        group="WEATHER"/>
+</sounds>

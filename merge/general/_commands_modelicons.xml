@@ -4,14 +4,14 @@
     <Item
         _Action="Add"
         _SelectorKeys="id"
-        id="r1m10_City1"
+        id="ov_valley_City1"
         file1="data\if\ico\LocalMap\icn_town.dds"
         file=""/>
 
     <Item
         _Action="Add"
         _SelectorKeys="id"
-        id="r1m10_Village1"
+        id="ov_valley_Village1"
         file1="data\if\ico\LocalMap\icn_village.dds"
         file=""/>
 </icons>

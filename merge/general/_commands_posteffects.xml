@@ -4,7 +4,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunrise_r1m10">
+        Name="wSunrise_ov_valley">
         <Unit
             VarName="Bloom"
             InitVal="3332996961312676900000000000000000000.000"
@@ -108,7 +108,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wDay_r1m10">
+        Name="wDay_ov_valley">
         <Unit
             VarName="Bloom"
             InitVal="1.000"
@@ -212,7 +212,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunset_r1m10">
+        Name="wSunset_ov_valley">
         <Unit
             VarName="Bloom"
             InitVal="3332996961312676900000000000000000000.000"
@@ -316,7 +316,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wNight_r1m10">
+        Name="wNight_ov_valley">
         <Unit
             VarName="Bloom"
             InitVal="1.000"
@@ -420,7 +420,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunrise_r1m10_rain">
+        Name="wSunrise_ov_valley_rain">
         <Unit
             VarName="Bloom"
             InitVal="1.000"
@@ -524,7 +524,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wDay_r1m10_rain">
+        Name="wDay_ov_valley_rain">
         <Unit
             VarName="Bloom"
             InitVal="3332996961312676900000000000000000000.000"
@@ -628,7 +628,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunset_r1m10_rain">
+        Name="wSunset_ov_valley_rain">
         <Unit
             VarName="Bloom"
             InitVal="3332996961312676900000000000000000000.000"
@@ -732,7 +732,7 @@
     <Model
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wNight_r1m10_rain">
+        Name="wNight_ov_valley_rain">
         <Unit
             VarName="Bloom"
             InitVal="3332996961312676900000000000000000000.000"
@@ -836,72 +836,72 @@
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunrise_r1m10"
+        Name="wSunrise_ov_valley"
         Loop="false">
         <Unit
-            Name="wSunrise_r1m10"/>
+            Name="wSunrise_ov_valley"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wDay_r1m10"
+        Name="wDay_ov_valley"
         Loop="false">
         <Unit
-            Name="wDay_r1m10"/>
+            Name="wDay_ov_valley"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunset_r1m10"
+        Name="wSunset_ov_valley"
         Loop="false">
         <Unit
-            Name="wSunset_r1m10"/>
+            Name="wSunset_ov_valley"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wNight_r1m10"
+        Name="wNight_ov_valley"
         Loop="false">
         <Unit
-            Name="wNight_r1m10"/>
+            Name="wNight_ov_valley"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunrise_r1m10_rain"
+        Name="wSunrise_ov_valley_rain"
         Loop="false">
         <Unit
-            Name="wSunrise_r1m10_rain"/>
+            Name="wSunrise_ov_valley_rain"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wDay_r1m10_rain"
+        Name="wDay_ov_valley_rain"
         Loop="false">
         <Unit
-            Name="wDay_r1m10_rain"/>
+            Name="wDay_ov_valley_rain"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wSunset_r1m10_rain"
+        Name="wSunset_ov_valley_rain"
         Loop="false">
         <Unit
-            Name="wSunset_r1m10_rain"/>
+            Name="wSunset_ov_valley_rain"/>
     </Sequence>
 
     <Sequence
         _Action="Add"
         _SelectorKeys="Name"
-        Name="wNight_r1m10_rain"
+        Name="wNight_ov_valley_rain"
         Loop="false">
         <Unit
-            Name="wNight_r1m10_rain"/>
+            Name="wNight_ov_valley_rain"/>
     </Sequence>
 </Effects>

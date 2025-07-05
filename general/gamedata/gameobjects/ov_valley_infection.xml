@@ -8,7 +8,7 @@ New infections by OverLine
 
     <Prototype
         Class			= "InfectionLair"
-        Name			= "r1m10_BanditsTeam_Lair"
+        Name			= "ov_valley_BanditsTeam_Lair"
 
         ModelFile		= "dungeon_1"
         NodeScale		= "1 1 1"/>	
@@ -26,15 +26,15 @@ New infections by OverLine
 
     <Prototype
 		Class			= "InfectionTeam"
-		Name			= "r1m10_BanditsTeam"
+		Name			= "ov_valley_BanditsTeam"
 		DecisionMatrix	        	= "teammain.lua"
-		VehiclesGenerator 	= "r1m10_SmallGenerator">
+		VehiclesGenerator 	= "ov_valley_SmallGenerator">
 		<Vehicles/>
 	</Prototype>
 
     <Prototype
 		Class 		= "VehiclesGenerator"
-		Name		= "r1m10_SmallGenerator"
+		Name		= "ov_valley_SmallGenerator"
 		DesiredCount 	= "1-2"
 		partOfSchwartzForCabin 			= "0.15"  
 		partOfSchwartzForBasket 		= "0.15"

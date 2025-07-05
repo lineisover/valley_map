@@ -6,16 +6,16 @@
 			name="WEATHERDETAIL">WeatherDetail.xml</Key>
 
 		<Key
-			name="WEATHERTYPE">r1m10</Key>
+			name="WEATHERTYPE">ov_valley</Key>
 
 		<Key
 			name="CURRENTDAYTIME">1</Key>
 
 		<Key
-			name="PATH">data\maps\r1m10</Key>
+			name="PATH">data\maps\ov_valley</Key>
 
 		<Key
-			name="LEVELNAME">r1m10</Key>
+			name="LEVELNAME">ov_valley</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>

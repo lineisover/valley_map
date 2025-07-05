@@ -4,7 +4,7 @@
     <WeatherItem
         _Action="Add"
         _SelectorKeys="name"
-        name="r1m10"
+        name="ov_valley"
         class="WeatherClear"
         skyDomeFactor="0.960"
         waterSpeed="0.520"
@@ -58,10 +58,10 @@
             nightColor="64.000 64.000 64.000"/>
 
         <PostEffect
-            sunrise="wSunrise_r1m10"
-            day="wDay_r1m10"
-            sunset="wSunset_r1m10"
-            night="wNight_r1m10"/>
+            sunrise="wSunrise_ov_valley"
+            day="wDay_ov_valley"
+            sunset="wSunset_ov_valley"
+            night="wNight_ov_valley"/>
 
         <ShadowVisibility
             sunrise="1"
@@ -91,7 +91,7 @@
     <WeatherItem
         _Action="Add"
         _SelectorKeys="name"
-        name="r1m10_rain"
+        name="ov_valley_rain"
         class="WeatherThunderstorm"
         skyDomeFactor="1.040"
         waterSpeed="0.520"
@@ -156,10 +156,10 @@
             nightColor="64.000 64.000 64.000"/>
 
         <PostEffect
-            sunrise="wSunrise_r1m10_rain"
-            day="wDay_r1m10_rain"
-            sunset="wSunset_r1m10_rain"
-            night="wNight_r1m10_rain"/>
+            sunrise="wSunrise_ov_valley_rain"
+            day="wDay_ov_valley_rain"
+            sunset="wSunset_ov_valley_rain"
+            night="wNight_ov_valley_rain"/>
 
         <ShadowVisibility
             sunrise="1"

@@ -9,7 +9,7 @@ New towns and villages by OverLine
 
 		<Prototype
 			Class="AffixGenerator"
-			Name="r1m10_village1_car_affix_Generator">
+			Name="ov_valley_village1_car_affix_Generator">
 
             <Affix AffixName = "useless_cabin" />
 			<Affix AffixName = "rusty_cabin" />
@@ -20,7 +20,7 @@ New towns and villages by OverLine
 
         <Prototype
 			Class="AffixGenerator"
-			Name="r1m10_village1_affix_Generator">
+			Name="ov_valley_village1_affix_Generator">
 
 			<Affix AffixName = "useless_gun" />
 			<Affix AffixName = "rusty_gun" />
@@ -34,7 +34,7 @@ New towns and villages by OverLine
 
 		<Prototype
 			Class="RepositoryObjectsGenerator"
-			Name="r1m10_village1_gun_Generator">
+			Name="ov_valley_village1_gun_Generator">
 
 			<Object PrototypeName="hornet01" />
 			<Object PrototypeName="specter01" />
@@ -49,7 +49,7 @@ New towns and villages by OverLine
 
 		<Prototype
 			Class="RepositoryObjectsGenerator"
-			Name="r1m10_city1_gun_Generator">
+			Name="ov_valley_city1_gun_Generator">
 
 			<Object PrototypeName="hornet01" />
 			<Object PrototypeName="specter01" />
@@ -68,7 +68,7 @@ New towns and villages by OverLine
 
 		<Prototype
 			Class="AffixGenerator"
-			Name="r1m10_city1_car_affix_Generator">
+			Name="ov_valley_city1_car_affix_Generator">
 
             <Affix AffixName = "excellent_cabin" />
 			<Affix AffixName = "advanced_cabin" />
@@ -79,7 +79,7 @@ New towns and villages by OverLine
 
 		<Prototype
 			Class="AffixGenerator"
-			Name="r1m10_city1_gun_affix_Generator">
+			Name="ov_valley_city1_gun_affix_Generator">
 
 			<Affix AffixName = "rusty_gun" />
 			<Affix AffixName = "excellent_gun" />
@@ -94,7 +94,7 @@ New towns and villages by OverLine
 	<Folder Name = "BigTowns">
 		<Prototype
 			Class							= "Town"
-			Name							= "r1m10_City1"
+			Name							= "ov_valley_City1"
 			ModelFile						= "minintown"
 			NodeScale						= "1 1 1" 
 
@@ -110,13 +110,13 @@ New towns and villages by OverLine
 			MaxDefenders					= "1"
 			Vehicles 						= "Bug"
 
-			GunGenerator					= "r1m10_city1_gun_Generator"
+			GunGenerator					= "ov_valley_city1_gun_Generator"
 			DesiredGunsInWorkshop			= "15"
 
-			GunAffixGenerator				= "r1m10_city1_gun_affix_Generator"
+			GunAffixGenerator				= "ov_valley_city1_gun_affix_Generator"
 			GunAffixesCount					= "1"
 
-			CabinsAndBasketsAffixGenerator	= "r1m10_city1_car_affix_Generator"
+			CabinsAndBasketsAffixGenerator	= "ov_valley_city1_car_affix_Generator"
 			CabinsAndBasketsAffixesCount	= "3"
 
 			WeaponPriceMultiplier 			= "1.2"
@@ -152,16 +152,16 @@ New towns and villages by OverLine
     <Folder Name = "Villages">
         <Prototype
 			Class							= "Town"
-			Name							= "r1m10_Village1"
+			Name							= "ov_valley_Village1"
 			ModelFile						= "point"
 			NodeScale						= "1 1 1" 
 
 			MusicName						= "agriculruar_town1"
 
-			GunGenerator					= "r1m10_village1_gun_Generator"
+			GunGenerator					= "ov_valley_village1_gun_Generator"
 			DesiredGunsInWorkshop			= "6"
 
-			GunAffixGenerator				= "r1m10_village1_affix_Generator"
+			GunAffixGenerator				= "ov_valley_village1_affix_Generator"
 			GunAffixesCount					= "1"
 
 			CabinsAndBasketsAffixGenerator	= "villagetruxaffixGenerator"

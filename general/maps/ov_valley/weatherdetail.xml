@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Weather>
 	<WeatherItem
-		name="r1m10">
+		name="ov_valley">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="Sunrise.tga"
@@ -24,7 +24,7 @@
 	</WeatherItem>
 
 	<WeatherItem
-		name="r1m10_rain">
+		name="ov_valley_rain">
 		<ColorType
 			name="sunrise"
 			LightmapTexture="Sunrise.tga"

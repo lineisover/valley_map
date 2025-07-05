@@ -4,18 +4,18 @@
     <Folder
         _Action="Add"
         _SelectorKeys="Name"
-        Name="Infection_New"
-        File="infection_new.xml"/>
+        Name="ov_valley_infection"
+        File="ov_valley_infection.xml"/>
 
     <Folder
         _Action="Add"
         _SelectorKeys="Name"
-        Name="Caravan_New"
-        File="caravan_new.xml"/>
+        Name="ov_valley_caravan"
+        File="ov_valley_caravan.xml"/>
 
     <Folder
         _Action="Add"
         _SelectorKeys="Name"
-        Name="Towns_New"
-        File="towns_new.xml"/>
+        Name="ov_valley_towns"
+        File="ov_valley_towns.xml"/>
 </Prototypes>

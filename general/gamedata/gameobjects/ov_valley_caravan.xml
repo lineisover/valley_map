@@ -7,7 +7,7 @@ New caravan by OverLine
 
     <Prototype
 		Class="WanderersGenerator"
-		Name="r1m10_CaravanCarGuardianGenerator"
+		Name="ov_valley_CaravanCarGuardianGenerator"
 		DesiredCount="0-2">
 		<Vehicles>
 			<Vehicle Prototype	=	"r1m1_CaravanGuardianSml101"/>
@@ -17,7 +17,7 @@ New caravan by OverLine
 
     <Prototype
     	Class				            =	"WanderersGenerator"
-    	Name				            =	"r1m10_CaravanCarGenerator"
+    	Name				            =	"ov_valley_CaravanCarGenerator"
     	DesiredCount		            =	"1">
     	<Vehicles>      
     		<Vehicle Prototype	        =	"r1m1_CaravanBug01"/>
@@ -29,10 +29,10 @@ New caravan by OverLine
 
     <Prototype
         Class					        =	"CaravanTeam"
-        Name					        =	"r1m10_CaravanTeam"
+        Name					        =	"ov_valley_CaravanTeam"
         DecisionMatrix			        =	"teammain.lua"
-        TradersVehiclesGeneratorName	=	"r1m10_CaravanCarGenerator"
-        GuardVehiclesGeneratorName	    =	"r1m10_CaravanCarGuardianGenerator"
+        TradersVehiclesGeneratorName	=	"ov_valley_CaravanCarGenerator"
+        GuardVehiclesGeneratorName	    =	"ov_valley_CaravanCarGuardianGenerator"
         WaresPrototypes			        =	"potato	firewood">
         <Formation Prototype		    =	"wedgeFormation"/>
     </Prototype>

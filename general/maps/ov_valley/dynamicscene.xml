@@ -9052,18 +9052,18 @@
 		Rot="0.000 0.951 0.000 -0.309" />
 
 	<Object
-		Name="r1m10_Village1"
+		Name="ov_valley_Village1"
 		Belong="1008"
-		Prototype="r1m10_Village1"
+		Prototype="ov_valley_Village1"
 		Pos="5579.253 265.858 6509.868"
 		PointOfViewInInterface="5.000 20.000 5.000"
-		CaravansDest="r1m10_City1_caravan">
+		CaravansDest="ov_valley_City1_caravan">
 		<Object
-			Name="r1m10_Village1_Bar"
+			Name="ov_valley_Village1_Bar"
 			Belong="1008"
 			Prototype="bar">
 			<Object
-				Name="r1m10_Village1_Barman"
+				Name="ov_valley_Village1_Barman"
 				Belong="1008"
 				Prototype="NPC"
 				ModelName="r1_woman"
@@ -9073,7 +9073,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_Village1_Workshop"
+			Name="ov_valley_Village1_Workshop"
 			Belong="1008"
 			Prototype="workshop">
 			<CabinsAndBaskets>
@@ -9150,7 +9150,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_Village1_Shop"
+			Name="ov_valley_Village1_Shop"
 			Belong="1008"
 			Prototype="shop">
 			<GunsAndGadgets>
@@ -9163,7 +9163,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_Village1_defend"
+			Name="ov_valley_Village1_defend"
 			Belong="1008"
 			Prototype="genericLocation"
 			Pos="5869.657 251.705 6416.156"
@@ -9171,21 +9171,21 @@
 			Active="0" />
 
 		<Object
-			Name="r1m10_Village1_deploy"
+			Name="ov_valley_Village1_deploy"
 			Belong="1008"
 			Prototype="genericLocation"
 			Pos="5623.899 272.255 6583.377"
 			Radius="50.000" />
 
 		<Object
-			Name="r1m10_Village1_enter"
+			Name="ov_valley_Village1_enter"
 			Belong="1008"
 			Prototype="genericLocation"
 			Pos="5567.092 266.626 6522.833"
 			Radius="40.000" />
 
 		<Object
-			Name="r1m10_Village1_caravan"
+			Name="ov_valley_Village1_caravan"
 			Belong="1008"
 			Prototype="genericLocation"
 			Pos="5624.409 272.349 6584.417"
@@ -9197,7 +9197,7 @@
 
 			<DefendTeam
 				present="yes"
-				Name="r1m10_Village1_DefendTeam"
+				Name="ov_valley_Village1_DefendTeam"
 				Belong="1008"
 				Prototype="settlementTeam">
 				<Formation
@@ -9218,19 +9218,19 @@
 	</Object>
 
 	<Object
-		Name="r1m10_City1"
+		Name="ov_valley_City1"
 		Belong="1010"
-		Prototype="r1m10_City1"
+		Prototype="ov_valley_City1"
 		Pos="5197.714 211.755 5306.421"
 		Rot="0.000 -1.000 0.000 -0.020"
 		PointOfViewInInterface="5.000 20.000 5.000"
-		CaravansDest="r1m10_Village1_caravan">
+		CaravansDest="ov_valley_Village1_caravan">
 		<Object
-			Name="r1m10_City1_Bar"
+			Name="ov_valley_City1_Bar"
 			Belong="1010"
 			Prototype="bar">
 			<Object
-				Name="r1m10_City1_Barman"
+				Name="ov_valley_City1_Barman"
 				Belong="1010"
 				Prototype="NPC"
 				ModelName="r1_woman"
@@ -9240,7 +9240,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_City1_Workshop"
+			Name="ov_valley_City1_Workshop"
 			Belong="1010"
 			Prototype="workshop">
 			<CabinsAndBaskets>
@@ -9370,7 +9370,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_City1_Shop"
+			Name="ov_valley_City1_Shop"
 			Belong="1010"
 			Prototype="shop">
 			<GunsAndGadgets>
@@ -9401,7 +9401,7 @@
 		</Object>
 
 		<Object
-			Name="r1m10_City1_defend"
+			Name="ov_valley_City1_defend"
 			Belong="1010"
 			Prototype="genericLocation"
 			Pos="5349.390 199.942 5007.478"
@@ -9410,7 +9410,7 @@
 			Active="0" />
 
 		<Object
-			Name="r1m10_City1_deploy"
+			Name="ov_valley_City1_deploy"
 			Belong="1010"
 			Prototype="genericLocation"
 			Pos="5276.989 202.307 5120.006"
@@ -9418,7 +9418,7 @@
 			Radius="50.000" />
 
 		<Object
-			Name="r1m10_City1_enter"
+			Name="ov_valley_City1_enter"
 			Belong="1010"
 			Prototype="genericLocation"
 			Pos="5193.756 208.290 5245.420"
@@ -9426,7 +9426,7 @@
 			Radius="40.000" />
 
 		<Object
-			Name="r1m10_City1_caravan"
+			Name="ov_valley_City1_caravan"
 			Belong="1010"
 			Prototype="genericLocation"
 			Pos="5216.405 204.401 5155.661"
@@ -9439,7 +9439,7 @@
 
 			<DefendTeam
 				present="yes"
-				Name="r1m10_City1_DefendTeam"
+				Name="ov_valley_City1_DefendTeam"
 				Belong="1010"
 				Prototype="settlementTeam">
 				<Formation
@@ -9490,9 +9490,9 @@
 		Name="InfectionZone1_Bandits"
 		Belong="1002"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		InfectionTeamPrototypeName="ov_valley_BanditsTeam"
 		DropOutTimeOut="30.000"
-		InfectionLair="r1m10_BanditsTeam"
+		InfectionLair="ov_valley_BanditsTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
@@ -9599,9 +9599,9 @@
 		Name="InfectionZone2_Bandits"
 		Belong="1002"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		InfectionTeamPrototypeName="ov_valley_BanditsTeam"
 		DropOutTimeOut="30.000"
-		InfectionLair="r1m10_BanditsTeam"
+		InfectionLair="ov_valley_BanditsTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
@@ -9708,9 +9708,9 @@
 		Name="InfectionZone3_Bandits"
 		Belong="1002"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		InfectionTeamPrototypeName="ov_valley_BanditsTeam"
 		DropOutTimeOut="30.000"
-		InfectionLair="r1m10_BanditsTeam"
+		InfectionLair="ov_valley_BanditsTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
@@ -9801,9 +9801,9 @@
 		Name="InfectionZone4_Bandits"
 		Belong="1002"
 		Prototype="InfectionZone"
-		InfectionTeamPrototypeName="r1m10_BanditsTeam"
+		InfectionTeamPrototypeName="ov_valley_BanditsTeam"
 		DropOutTimeOut="30.000"
-		InfectionLair="r1m10_BanditsTeam"
+		InfectionLair="ov_valley_BanditsTeam"
 		HadPlayerInside="0">
 		<Polygon>
 			<Point
@@ -9982,27 +9982,27 @@
 	</Object>
 
 	<Object
-		Name="r1m10_CaravanGlobal"
+		Name="ov_valley_CaravanGlobal"
 		Belong="1010"
 		Prototype="LiveCaravanManager"
 		TeamCount="1"
 		RebornTimeout="30.000">
 		<Points>
 			<Point
-				Name="r1m10_City1_caravan"
+				Name="ov_valley_City1_caravan"
 				Coord="5216.405 5155.661"
 				Transition="true" />
 
 			<Point
-				Name="r1m10_Village1_caravan"
+				Name="ov_valley_Village1_caravan"
 				Coord="5624.409 6584.417"
 				Transition="true" />
 		</Points>
 
 		<Caravans>
 			<Caravan
-				Prototype="r1m10_CaravanTeam"
-				Locations="r1m10_City1_caravan r1m10_Village1_caravan" />
+				Prototype="ov_valley_CaravanTeam"
+				Locations="ov_valley_City1_caravan ov_valley_Village1_caravan" />
 		</Caravans>
 	</Object>
 

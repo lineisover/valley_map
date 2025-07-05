@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<Node>
+    <Node
+        _Action="Add"
+        _ParentXPath="Node[@name='Animated models']"
+        _SelectorKeys="name"
+        name="ModelsPack"
+        class="VirtualItem"
+        type="ANIMATED_MODELS"
+        isLeaf="0">
+        <Node
+            name="Fences"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="0">
+            <Node
+                name="PO2_0Base"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="PO2_1Base"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="PO2_2Base"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+        </Node>
+
+        <Node
+            name="Roads"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="0">
+            <Node
+                name="bl_barrier_road"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+        </Node>
+
+        <Node
+            name="Other"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="0">
+            <Node
+                name="electrical_panel"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="propane_storage"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="cable_reel"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="campfire"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="firepot"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="composter"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="v_crate"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+        </Node>
+
+        <Node
+            name="Nature"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="0">
+            <Node
+                name="Stones"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="0">
+                <Node
+                    name="rock_1"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+            </Node>
+        </Node>
+    </Node>
+</Node>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<AnimatedModels>
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="rock_1"
+        shadow="1"
+        trans="1"
+        windwavy="0"
+        useImpostors="0"
+        file="data\models\models_pack\rock_1\rock.gam"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_0Base"
+        file="data\models\models_pack\po_concrete\PO2_0Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_1Base"
+        file="data\models\models_pack\po_concrete\PO2_1Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="PO2_2Base"
+        file="data\models\models_pack\po_concrete\PO2_2Base.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="electrical_panel"
+        file="data\models\models_pack\electrical_panel\electrical_panel.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="bl_barrier_road"
+        file="data\models\models_pack\bl_barrier_road\bl_barrier_road.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="propane_storage"
+        file="data\models\models_pack\propane_storage\propane_storage.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="cable_reel"
+        file="data\models\models_pack\cable_reel\cable_reel.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="campfire"
+        file="data\models\models_pack\campfire\campfire.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="firepot"
+        file="data\models\models_pack\firepot\firepot.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="composter"
+        file="data\models\models_pack\composter\composter.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="v_crate"
+        file="data\models\models_pack\v_crate\v_crate.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+</AnimatedModels>

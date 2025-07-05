@@ -1,0 +1,8 @@
+- commands: merge\models\_commands_animmodels.xml
+  targets:  models\animmodels.xml
+
+- commands: merge\models\_commands_servers.xml
+  targets:  models\servers.xml
+
+- commands: merge\models\_commands_virtualtree.xml
+  targets:  editor\virtualtree.xml

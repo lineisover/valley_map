@@ -1,13 +1,7 @@
 # models
 
-- commands: merge\general\_commands_animmodels.xml
-  targets:  models\animmodels.xml
-
 - commands: merge\general\_commands_effects.xml
   targets:  models\effects.xml
-
-- commands: merge\general\_commands_servers.xml
-  targets:  models\servers.xml
 
 # gamedata
 

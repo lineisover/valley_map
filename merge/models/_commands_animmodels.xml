@@ -41,6 +41,15 @@
     <model
         _Action="Add"
         _SelectorKeys="id"
+        id="PO2_OnlyBase"
+        file="data\models\models_pack\po_concrete\PO2_OnlyBase.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
         id="electrical_panel"
         file="data\models\models_pack\electrical_panel\electrical_panel.gam"
         shadow="1"
@@ -109,4 +118,58 @@
         shadow="1"
         windwavy="0"
         trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="wood_fence"
+        file="data\models\models_pack\wood_fence\wood_fence.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="wood_fence_only_pole"
+        file="data\models\models_pack\wood_fence\wood_fence_only_pole.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="wood_fence_with_pole"
+        file="data\models\models_pack\wood_fence\wood_fence_with_pole.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="sawbuck"
+        file="data\models\models_pack\sawbuck\sawbuck.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="table_cabin"
+        file="data\models\models_pack\table_cabin\table_cabin.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="v_tall_tree"
+        file="data\models\models_pack\v_tall_tree\v_tall_tree.gam"
+        shadow="1"
+        windwavy="0"
+        trans="1"/>
 </AnimatedModels>

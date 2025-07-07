@@ -15,22 +15,58 @@
             type="ANIMATED_MODELS"
             isLeaf="0">
             <Node
-                name="PO2_0Base"
+                name="PO2"
                 class="VirtualItem"
                 type="ANIMATED_MODELS"
-                isLeaf="1"/>
+                isLeaf="0">
+                <Node
+                    name="PO2_0Base"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+
+                <Node
+                    name="PO2_1Base"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+
+                <Node
+                    name="PO2_2Base"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+
+                <Node
+                    name="PO2_OnlyBase"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+            </Node>
 
             <Node
-                name="PO2_1Base"
+                name="wood_fence"
                 class="VirtualItem"
                 type="ANIMATED_MODELS"
-                isLeaf="1"/>
+                isLeaf="0">
+                <Node
+                    name="wood_fence"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
 
-            <Node
-                name="PO2_2Base"
-                class="VirtualItem"
-                type="ANIMATED_MODELS"
-                isLeaf="1"/>
+                <Node
+                    name="wood_fence_only_pole"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+
+                <Node
+                    name="wood_fence_with_pole"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+            </Node>
         </Node>
 
         <Node
@@ -91,6 +127,18 @@
                 class="VirtualItem"
                 type="ANIMATED_MODELS"
                 isLeaf="1"/>
+
+            <Node
+                name="sawbuck"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="table_cabin"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
         </Node>
 
         <Node
@@ -105,6 +153,18 @@
                 isLeaf="0">
                 <Node
                     name="rock_1"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+            </Node>
+
+            <Node
+                name="Trees"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="0">
+                <Node
+                    name="v_tall_tree"
                     class="VirtualItem"
                     type="ANIMATED_MODELS"
                     isLeaf="1"/>

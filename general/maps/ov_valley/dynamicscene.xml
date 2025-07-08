@@ -24276,7 +24276,7 @@
 		Belong="1001"
 		Prototype="Breakable_Elka1"
 		Pos="5093.182 207.491 3847.754"
-		Rot="0.000 1.000 0.000 -0.000" />
+		Rot="0.000 1.000 0.000 0.000" />
 
 	<Object
 		Name="Breakable_Elka11063"
@@ -24346,7 +24346,7 @@
 		Belong="1001"
 		Prototype="Breakable_Elka1"
 		Pos="4911.664 200.583 3991.017"
-		Rot="0.000 0.903 0.000 -0.431" />
+		Rot="0.000 0.902 0.000 -0.431" />
 
 	<Object
 		Name="Breakable_Elka11073"
@@ -24367,7 +24367,7 @@
 		Belong="1001"
 		Prototype="Breakable_Elka1"
 		Pos="5164.069 199.211 3657.038"
-		Rot="0.000 0.326 0.000 0.946" />
+		Rot="0.000 0.326 0.000 0.945" />
 
 	<Object
 		Name="Breakable_Elka11076"
@@ -24381,7 +24381,7 @@
 		Belong="1001"
 		Prototype="Breakable_Elka1"
 		Pos="5129.646 205.046 3587.099"
-		Rot="0.000 0.326 0.000 0.946" />
+		Rot="0.000 0.326 0.000 0.945" />
 
 	<Object
 		Name="Breakable_Elka11078"
@@ -24505,7 +24505,7 @@
 		Name="Breakable_Listvenoe31095"
 		Belong="1001"
 		Prototype="Breakable_Listvenoe3"
-		Pos="5019.468 215.564 3836.885"
+		Pos="5019.468 215.563 3836.885"
 		Rot="0.000 -0.522 0.000 0.853" />
 
 	<Object
@@ -24527,7 +24527,7 @@
 		Belong="1001"
 		Prototype="Breakable_Listvenoe3"
 		Pos="5291.973 199.672 3807.895"
-		Rot="0.000 0.431 0.000 0.903" />
+		Rot="0.000 0.431 0.000 0.902" />
 
 	<Object
 		Name="Breakable_Dub31099"

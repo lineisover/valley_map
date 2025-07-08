@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="427420116">
+	LastId="427420188">
 	<Node
 		name="Object427413912"
 		class="SgAnimatedModelNode"
@@ -33378,5 +33378,82 @@
 		rot="0.0000 0.9171 0.0000 0.3987"
 		scale="1.160 1.160 1.160"
 		id="r1_Dub_Kust2"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420179"
+		class="SgAnimatedModelNode"
+		org="3587.311 -0.206 2560.518"
+		orgRel="1"
+		id="industrial_box_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420180"
+		class="SgAnimatedModelNode"
+		org="3586.083 -0.541 2584.945"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0065"
+		id="industrial_building_1"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420181"
+		class="SgAnimatedModelNode"
+		org="3580.169 0.370 2530.725"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0044"
+		id="industrial_building_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420182"
+		class="SgAnimatedModelNode"
+		org="3569.018 -1.226 2630.058"
+		orgRel="1"
+		id="industrial_building_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420183"
+		class="SgAnimatedModelNode"
+		org="3680.549 -0.347 2584.350"
+		orgRel="1"
+		rot="0.0044 0.0000 0.0000 1.0000"
+		id="industrial_building_4"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420184"
+		class="SgAnimatedModelNode"
+		org="3672.370 -0.679 2633.213"
+		orgRel="1"
+		id="industrial_building_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420185"
+		class="SgAnimatedModelNode"
+		org="3748.239 -0.617 2644.921"
+		orgRel="1"
+		rot="0.0000 0.0000 -0.0087 1.0000"
+		id="industrial_building_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420186"
+		class="SgAnimatedModelNode"
+		org="3672.136 -0.657 2675.429"
+		orgRel="1"
+		id="industrial_building_7"
+		ndmAction="0" />
+
+	<Node
+		name="Object427420187"
+		class="SgAnimatedModelNode"
+		org="3650.775 -1.427 2712.723"
+		orgRel="1"
+		rot="0.0000 0.0175 0.0000 0.9998"
+		id="industrial_building_8"
 		ndmAction="0" />
 </World>

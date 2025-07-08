@@ -172,4 +172,85 @@
         shadow="1"
         windwavy="0"
         trans="1"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_box_1"
+        file="data\models\models_pack\buildings\industrial_box_1.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_1"
+        file="data\models\models_pack\buildings\industrial_building_1.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_2"
+        file="data\models\models_pack\buildings\industrial_building_2.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_3"
+        file="data\models\models_pack\buildings\industrial_building_3.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_4"
+        file="data\models\models_pack\buildings\industrial_building_4.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_5"
+        file="data\models\models_pack\buildings\industrial_building_5.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_6"
+        file="data\models\models_pack\buildings\industrial_building_6.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_7"
+        file="data\models\models_pack\buildings\industrial_building_7.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="industrial_building_8"
+        file="data\models\models_pack\buildings\industrial_building_8.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
 </AnimatedModels>

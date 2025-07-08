@@ -10,6 +10,66 @@
         type="ANIMATED_MODELS"
         isLeaf="0">
         <Node
+            name="Buildings"
+            class="VirtualItem"
+            type="ANIMATED_MODELS"
+            isLeaf="0">
+            <Node
+                name="industrial_box_1"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_1"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_2"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_3"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_4"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_5"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_6"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_7"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+
+            <Node
+                name="industrial_building_8"
+                class="VirtualItem"
+                type="ANIMATED_MODELS"
+                isLeaf="1"/>
+        </Node>
+
+        <Node
             name="Fences"
             class="VirtualItem"
             type="ANIMATED_MODELS"

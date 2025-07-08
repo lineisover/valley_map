@@ -133,4 +133,67 @@
         _SelectorKeys="id"
         id="v_tall_tree"
         file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_box_1"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_1"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_2"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_3"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_4"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_5"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_6"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_7"
+        file="data\models\AnimModels.xml"/>
+
+    <Item
+        _Action="Add"
+        _ParentXPath="AnimatedModelsServer"
+        _SelectorKeys="id"
+        id="industrial_building_8"
+        file="data\models\AnimModels.xml"/>
 </Servers>

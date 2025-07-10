@@ -253,4 +253,41 @@
         shadow="1"
         windwavy="0"
         trans="0"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="birch"
+        file="data\models\models_pack\nature\birch.gam"
+        shadow="1"
+        windwavy="0"
+        trans="1"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="big_oak"
+        file="data\models\models_pack\nature\oak.gam"
+        shadow="1"
+        windwavy="0"
+        trans="1"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="acacia"
+        file="data\models\models_pack\nature\acacia.gam"
+        shadow="1"
+        windwavy="0"
+        trans="1"/>
+
+    <model
+        _Action="Add"
+        _SelectorKeys="id"
+        id="green_moss_rock_1"
+        file="data\models\models_pack\nature\green_moss_rock_1.gam"
+        shadow="1"
+        windwavy="0"
+        trans="0"/>
+
 </AnimatedModels>

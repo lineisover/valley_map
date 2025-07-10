@@ -216,6 +216,11 @@
                     class="VirtualItem"
                     type="ANIMATED_MODELS"
                     isLeaf="1"/>
+                <Node
+                    name="green_moss_rock_1"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
             </Node>
 
             <Node
@@ -225,6 +230,21 @@
                 isLeaf="0">
                 <Node
                     name="v_tall_tree"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+                <Node
+                    name="birch"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+                <Node
+                    name="big_oak"
+                    class="VirtualItem"
+                    type="ANIMATED_MODELS"
+                    isLeaf="1"/>
+                <Node
+                    name="acacia"
                     class="VirtualItem"
                     type="ANIMATED_MODELS"
                     isLeaf="1"/>
